@@ -9,7 +9,7 @@ class Contact:
         self.category = category
 
     def __repr__(self):
-        return f"{self.name}, {self.phone}, {self.email or 'N/A'}, {self.category or 'N/A'}"
+        return f"{self.name},{self.phone}, {self.email or 'N/A'}, {self.category or 'N/A'}"
 
 def phonebook():
     x = int(input("Enter the initial number of contacts: "))
